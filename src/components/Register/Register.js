@@ -63,7 +63,7 @@ class Register extends React.Component{
                         <input onChange={this.onPasswordChange} className="b pa2 input-reset ba bg-white" type="password" name="password"  id="password" required/>
                     </div>
                     </fieldset>
-                    <div className="mt3"><input onClick={this.onSubmitSignIn} className="b ph3 pv2 input-reset ba b--black bg-white grow pointer f6" type="submit" value="Sign Up" /></div>
+                    <div className="mt3"><input onClick={this.onSubmitSignIn} className="b ph3 pv2 input-reset ba b--black bg-white grow pointer f6" type="submit" value="Register" /></div>
                 </form>
             </article>
         </article>
